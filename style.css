@@ -11,7 +11,6 @@ img{
 
 }
 nav {
-    background-color: blue;
     float: right;
     height: 40px;
     width: 50%;
@@ -27,23 +26,13 @@ main{
   background-color: grey;
 }
 
-section1{
+section{
   background-color:tranparent;
   float: right;
   width: 65em;
   padding: 15px;
 }
 
-section2{
-  background-color:tranparent;
-  float: right;
-  width: 65em;
-  padding: 15px;
-}
-
-section3{
-  background-color:tranparent;
-  float: right;
-  width: 65em;
-  padding: 15px
+h1{
+  text-align: center;
 }
