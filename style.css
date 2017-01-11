@@ -1,15 +1,14 @@
-body{
-  background-color: grey;
+body {
+  background-image: url(http://wallpaper-gallery.net/images/hd-wallpapers-for-pc/hd-wallpapers-for-pc-11.jpg);
 }
 
-header{
-
+header {
 }
 
-img{
+img {
   border-radius: 8px;
-
 }
+
 nav {
     float: right;
     height: 40px;
@@ -17,22 +16,25 @@ nav {
 }
 
 aside {
-    background-color: tranparent;
-    width: 15%;
+    border-radius: 10px;
+    border-style: solid;
     float: left;
+    margin-top: 5em;
+    padding: 15px;
+    width: 15%;
 }
 
-main{
+main {
   background-color: grey;
 }
 
-section{
+section {
   background-color:tranparent;
   float: right;
-  width: 65em;
+  width: 60em;
   padding: 15px;
 }
 
-h1{
+h1 {
   text-align: center;
 }
