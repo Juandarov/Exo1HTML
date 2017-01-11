@@ -1,5 +1,7 @@
 body {
-  background-image: url(http://wallpaper-gallery.net/images/hd-wallpapers-for-pc/hd-wallpapers-for-pc-11.jpg);
+  background-image: url(../image/Rolling_Waves_Mod-ultra-HD.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
 }
 
 header {
@@ -10,12 +12,25 @@ img {
 }
 
 nav {
+    color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
     float: right;
     height: 40px;
-    width: 50%;
+    margin-right: 5em;
+    margin-top: 3em;
+}
+
+a {
+  font-size: 25px;
+  color: white;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 aside {
+  border-color: white;
     border-radius: 10px;
     border-style: solid;
     float: left;
@@ -25,11 +40,13 @@ aside {
 }
 
 main {
-  background-color: grey;
+  background-color: transparent;
 }
 
 section {
-  background-color:tranparent;
+  border-color: white;
+  border-bottom-style: solid;
+  /*display: inline-block;*/
   float: right;
   width: 60em;
   padding: 15px;
@@ -37,4 +54,65 @@ section {
 
 h1 {
   text-align: center;
+}
+
+
+
+
+legend {
+  font-style: italic;
+}
+
+label {
+    color: white;
+    display: inline-block;
+    margin: 15px;
+    width: 10em;
+}
+
+input {
+    display: block;
+}
+textarea {
+   height: 199px;
+   width: 374px;
+}
+
+#infos {
+  border-radius: 10px;
+  background-color:transparent;
+  width: 25em;
+}
+
+#comments {
+  border-radius: 10px;
+  background-color:transparent;
+  width: 25em;
+}
+
+fieldset {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#id {
+  border: solid;
+}
+
+footer {
+    clear: both;
+    padding-top: 4em;
+}
+
+footer img {
+  margin-bottom: 2em;
+  margin-left: 3em;
+  border-radius: 10%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+
+footer img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
