@@ -3,8 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>ExoHTML1</title>
-        <link rel="stylesheet" href="style.css">
-        <img src="Fiche/Code/exohtlm1/Rolling_Waves_Mod-ultra-HD.jpg" alt="waves">
+        <link rel="stylesheet" href="css/style.css">
         <script src="./script.js"></script>
     </head>
     <body>
@@ -78,36 +77,41 @@
               deserunt mollit anim id est laborum.
             </section>
 
+            <form>
             <section id ="contacts">
-              <h1>contacts</h1>
+              <h1>Contact</h1>
+                <fieldset id="infos">
+                  <legend>Vos Infos</legend>
 
-                <form action="http://live.condincamp.fr/mail.php" method="post">
+                  <label>Nom:</label>
+                  <input type="text" name="name" value="">
 
-                  <label>Nom</label>
-                   <input type="text" name="" id="nom"/>
-                    <textarea name="commentaire" cols="10" rows="5"></textarea>
-                      <input type="submit" name="" value="envoyer"/>
+                  <label>Prenom:</label>
+                  <input type="text" name="prenom" value="">
 
-                    <label>garder mon mail</label>
+                  <label>Age:</label>
+                  <input type="text" name="Age" value="">
 
-                    <input type="checkbox" name="chien" value="checked"/>
-                    <input type="radio" name="loisirs"/>
-                    <input type="radio" name="loisirs"/>
+                  <label>Mail</label>
+                  <input type="text" name="email" value="juandarov@gmail.com">
+                </fieldset>
 
-                    <label>Mot de passe</label>
-                    <input type="reset" value="effacer"/>
-                    <input type="password" name="" value="envoyer"/>
+                <fieldset id="comments">
+                  <legend>comments</legend>
+                  <label>Subject</label>
+                  <input type="text" name="subject" value="">
+                  <textarea name="message" cols="10" rows="5"></textarea>
+                  <input type="submit" name="message" value="envoyer"/>
+                </fieldset>
+            </section>
 
                     <!-- mes commentaire perso -->
 
                 </form>
-
-            </section>
-
         </main>
             <footer>
-
+                <img src="image/fbicon.png" alt="fb_icon" width="100" height="100"/>                 
+                  <span>Facebook</span>
             </footer>
-
     </body>
 </html>
