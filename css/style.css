@@ -100,8 +100,10 @@ fieldset {
 }
 
 footer {
-    clear: both;
-    padding-top: 4em;
+  margin-top: 2em;
+  clear: both;
+  padding-top: 4em;
+  border-top: solid white;
 }
 
 footer img {
